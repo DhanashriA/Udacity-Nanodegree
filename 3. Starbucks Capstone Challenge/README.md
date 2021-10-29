@@ -49,11 +49,11 @@ Both random forest and gradient boosting models are a combination of multiple 
 Gradient boosting iteratively constructs a set of decision trees with the goal of reducing the number of misclassified training data samples from the previous iteration. 
 Typically, gradient boosting performs better than a random forest classifier. However, gradient boosting may overfit the training data and requires additional effort to tune. A random forest classifier is less prone to overfitting because it constructs decision trees from random training data samples. Also, a random forest classifier's hyperparameters are easier to optimize.
 
-CatBoost is an algorithm for gradient boosting on decision trees. Catboost build one of the most accurate model on whatever dataset you feed it with — requiring minimal data prep. It is a readymade classifier in scikit-learn’s conventions terms. Though I have applied it on the cleaned and transformed dataset using one-hot encoding etc, Catboost would deal with the categorical features automatically and is scalable in nature.
+CatBoost is a relatively new algorithm for gradient boosting on decision trees. Catboost builds one of the most accurate model on whatever dataset you feed it with — requiring minimal data preparation. It is a readymade classifier in scikit-learn’s conventions terms. Though I have applied it on the cleaned and transformed dataset using one-hot encoding etc, Catboost would deal with the categorical features automatically and is scalable in nature.
 
 ## Results
 
-This analysis suggests that a random forest model has the best training data accuracy and F1-score. 
+My analysis suggests that among three models, random forest model has the best training data accuracy and F1-score. 
 Refined random forest model hyperparameters using a grid search method has training data accuracy of 0.842 and an F1-score of 0.867
 The test data set accuracy of 0.65 and F1-score of 0.706 suggests that the random forest model did not overfit the training data.
 Which shows that the model will be able to predict the offer response based on the customer demographics and the offer details and the model is not biased towards one particular result. 
