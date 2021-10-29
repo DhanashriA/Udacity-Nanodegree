@@ -1,9 +1,9 @@
 # Starbucks Capstone Challenge
 ## Project Overview
-The Starbucks Udacity Data Scientist Nanodegree Capstone challenge data set is a simulation of customer behaviour on the Starbucks rewards mobile application. Periodically, Starbucks sends offers to users that may be an advertisement, discount, or buy one get on free (BOGO). An important characteristic regarding this dataset is that not all users receive the same offer.
+The StarbucksÂ Udacity Data Scientist NanodegreeÂ Capstone challenge data set is a simulation of customer behaviour on the Starbucks rewards mobile application. Periodically, Starbucks sends offers to users that may be an advertisement, discount, or buy one get on free (BOGO). An important characteristic regarding this dataset is that not all users receive the same offer.
 This data set contains three files. The first file describes the characteristics of each offer, including its duration and the amount a customer needs to spend to complete it (difficulty). The second file contains customer demographic data including their age, gender, income, and when they created an account on the Starbucks rewards mobile application. The third file describes customer purchases and when they received, viewed, and completed an offer. An offer is only successful when a customer both views an offer and meets or exceeds its difficulty within the offer's duration.
 
-## DATASETS
+## Datasets
 
 The data is contained in three files:
 
@@ -45,13 +45,13 @@ Refine the parameters of the model that has the highest accuracy and F1-score.
 
 I have built random forest, gradient boosting and catboost models.
 
-Both random forest and gradient boosting models are a combination of multiple decision trees. A random forest classifier randomly samples the training data with replacement to construct a set of decision trees that are combined using majority voting.
-Gradient boosting iteratively constructs a set of decision trees with the goal of reducing the number of misclassified training data samples from the previous iteration. 
+BothÂ random forestÂ and gradient boosting models are a combination of multiple decision trees. A random forest classifier randomly samples the training data with replacement to construct a set of decision trees that are combined usingÂ majority voting.
+Gradient boostingÂ iteratively constructs a set of decision trees with the goal of reducing the number of misclassified training data samples from the previous iteration. 
 Typically, gradient boosting performs better than a random forest classifier. However, gradient boosting may overfit the training data and requires additional effort to tune. A random forest classifier is less prone to overfitting because it constructs decision trees from random training data samples. Also, a random forest classifier's hyperparameters are easier to optimize.
 
-CatBoost is an algorithm for gradient boosting on decision trees. Catboost build one of the most accurate model on whatever dataset you feed it with — requiring minimal data prep. It is a readymade classifier in scikit-learn’s conventions terms. Though I have applied it on the cleaned and transformed dataset using one-hot encoding etc, Catboost would deal with the categorical features automatically and is scalable in nature.
+CatBoost is an algorithm for gradient boosting on decision trees. Catboost build one of the most accurate model on whatever dataset you feed it with â€” requiring minimal data prep. It is a readymade classifier in scikit-learnâ€™s conventions terms. Though I have applied it on the cleaned and transformed dataset using one-hot encoding etc, Catboost would deal with the categorical features automatically and is scalable in nature.
 
-## RESULTS
+## Results
 
 This analysis suggests that a random forest model has the best training data accuracy and F1-score. 
 Refined random forest model hyperparameters using a grid search method has training data accuracy of 0.842 and an F1-score of 0.867
@@ -71,8 +71,4 @@ Also it would be interesting to explore Catboost's capabilities further.
 
 Thus, Starbucks can use the RandomForestClassifier to predict whether a customer will accept a particular offer or not and then decide to whom to send out the particular offer.
 
-
-## ACKNOWLEDGEMENTS
-- Starbucks for the data
-- Udacity for the opportunity and guidance
 
