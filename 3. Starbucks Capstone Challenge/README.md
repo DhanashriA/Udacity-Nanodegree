@@ -40,27 +40,27 @@ The business case that I chose to solve is to build a classifier that predicts w
 ## Dependencies : None
 
 ## Installations 
-from sklearn.preprocessing import MultiLabelBinarizer
-import datetime
-from sklearn import metrics
-from tqdm import tqdm
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
-from sklearn.model_selection import RandomizedSearchCV
-from sklearn.metrics import accuracy_score, f1_score
-import matplotlib.pyplot as plt
-import seaborn as sns
-import re
-import warnings
-warnings.filterwarnings('ignore')
-from sklearn.datasets import make_classification
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.inspection import permutation_importance
+- from sklearn.preprocessing import MultiLabelBinarizer
+- import datetime
+- from sklearn import metrics
+- from tqdm import tqdm
+- from sklearn.model_selection import train_test_split
+- from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
+- from sklearn.model_selection import RandomizedSearchCV
+- from sklearn.metrics import accuracy_score, f1_score
+- import matplotlib.pyplot as plt
+- import seaborn as sns
+- import re
+- import warnings
+- warnings.filterwarnings('ignore')
+- from sklearn.datasets import make_classification
+- from sklearn.neighbors import KNeighborsClassifier
+- from sklearn.inspection import permutation_importance
 
 ### Code
 Starbucks_Capstone_notebook.IPYNB 
 
-## Link to my Blog
+### Link to my Blog
 https://medium.com/@dsjoshi24/starbucks-capstone-project-f0d1add1da10
 
 
