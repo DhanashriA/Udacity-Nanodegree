@@ -59,7 +59,7 @@ from sklearn.inspection import permutation_importance
 
 ## Code: Starbucks_Capstone_notebook.IPYNB 
 
-# Link to my Blog:
+## Link to my Blog:
 https://medium.com/@dsjoshi24/starbucks-capstone-project-f0d1add1da10
 
 
